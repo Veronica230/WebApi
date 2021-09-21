@@ -5,7 +5,7 @@ const desc = document.querySelector('.desc');
 const temp = document.querySelector('.temp');
 
 const handleButtonSubmit = () => {
-  fetch(`http://api.openweathermap.org/data/2.5/weather?q=${inputValue.value}&appid=f3192fd842a1d8257f16f61d64c0c3d9&lang=es&units=metric`)
+  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${inputValue.value}&appid=f3192fd842a1d8257f16f61d64c0c3d9&lang=es&units=metric`)
     .then(Response => Response.json())
     .then(data => {
       const nameValue = data ? data.name : 'Valor inválido.';
