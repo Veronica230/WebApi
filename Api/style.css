@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.input{
+    text-align: center;
+    margin: 100px 0;
+}
+input[type="text"]{
+    height: 50px;
+    width: 600px;
+    background: rgb(129, 220, 248);
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 28px;
+    border: black;
+    border-radius: 2px;
+    padding: 10px 10px;
+}
+input[type="submit"]{
+    height: 50px;
+    width: 100px;
+    background: rgb(253, 233, 165);
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 28px;
+    border: none;
+    border-radius: 2px;
+}
+
+.buttonSubmit {
+    height: 50px;
+    width: 100px;
+    background: rgb(248, 210, 129);
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 28px;
+    border: none;
+    border-radius: 2px;  
+}
+.display{
+    text-align: center;
+}
